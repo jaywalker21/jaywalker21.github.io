@@ -1,0 +1,27 @@
+.App .section-navigation {
+  display: block;
+  margin-left: 10.88%;
+  width: fit-content;
+}
+
+.App .section-navigation:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+    
+.App .section-navigation .arrow {
+  display: inline;
+  padding-right: 10px;
+}
+  
+.App .section-navigation .section-header {
+  text-transform: uppercase;
+  font-family: montserrat-semibold, sans-serif;
+  font-size: 30px;
+  color: var(--blue-variant);
+}
+
+.App .searchbar-row {
+  margin: 10px 10.88% 10px 10.88%;
+  width: 74%;
+}

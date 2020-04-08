@@ -1,0 +1,10 @@
+.App .text-header {
+  padding: 0 5px 0 5px;
+  text-align: left;
+}
+
+@media (min-width: 1200px) {
+  .App .text-header {
+    text-align: center;
+  }
+}

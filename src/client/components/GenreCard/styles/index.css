@@ -1,0 +1,41 @@
+.genre-card {
+  box-shadow: 2px 2px 5px 2px rgba(211, 209, 238, 0.5);
+  border-radius: 4px;
+  padding: 5px 10px 5px 10px;
+  height: 40px;
+  line-height: 2;
+  cursor: pointer;
+  background-color: white;
+}
+
+.genre-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.genre-card .genre-icon img {
+  height: 30px;
+  width: 30px;
+}
+
+.genre-card .genre-icon {
+  top: 5px;
+}
+
+.genre-card .genre-text {
+  font-family: montserrat-regular, sans-serif;
+  color: var(--grey-three);
+  font-size: 20px;
+  font-weight: bold;
+  height: inherit;
+  padding-left: 40px;
+  text-transform: uppercase;
+}
+
+.genre-card .genre-next-icon {
+  top: 7px;
+  height: 30px;
+  width: 30px;
+  float: right;
+}

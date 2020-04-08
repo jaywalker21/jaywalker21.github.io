@@ -1,0 +1,17 @@
+.App {
+  display: grid;
+}
+
+.App h1, .App h2 {
+    text-align: center;
+  }
+  
+.App .card {
+  box-shadow: 0 1px 0 rgba(0,0,0,.25);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: var(--body-background);
+  margin: 0 10.88% 0 10.88%;
+  padding: 10px;
+  display: flow-root;
+}

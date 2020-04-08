@@ -1,0 +1,25 @@
+@import "./client/styles/fonts.css";
+@import "./client/styles/bootstrap.css";
+@import "./client/styles/colors.css";
+
+h1 {
+  font-family: montserrat-semibold, sans-serif;
+  font-size: 48px;
+  color: var(--blue-variant);
+}
+
+h2 {
+  font-family: montserrat-semibold, sans-serif;
+  font-size: 30px;
+  color: var(--blue-variant);
+}
+
+body {
+  font-family: montserrat-regular, sans-serif;
+  color: var(--grey-three);
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+}
+

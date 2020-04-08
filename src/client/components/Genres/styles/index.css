@@ -1,0 +1,13 @@
+.dispay-row {
+  padding-top: 10px;
+}
+
+.display-col {
+  float: right;
+  padding-bottom: 20px;
+}
+
+.display-col.havePadding {
+  padding-right: 40px;
+  float: left;
+}
