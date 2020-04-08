@@ -1,4 +1,4 @@
-const BASE_URL = 'http://skunkworks.ignitesol.com:8000/books/';
+const BASE_URL = 'https://cors-anywhere.herokuapp.com/http://skunkworks.ignitesol.com:8000/books/';
 
 export const getBooks = (params, nextUrl) => {
   let urlParams = new URLSearchParams({ mime_type: "image/", ...params });
@@ -6,6 +6,6 @@ export const getBooks = (params, nextUrl) => {
   if(nextUrl && nextUrl !== "") {
       currentUrl = nextUrl;
   }
-  return(fetch(currentUrl));
+  return(fetch(currentUrl, { headers: { 'X-Requested-With': 'XMLHttpRequest' } } ));
 }
 
